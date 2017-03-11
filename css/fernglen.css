@@ -29,6 +29,9 @@ article {
     padding: 2em 5em;
 }
 
+
+/* FOLD-OUT MENU */
+
 @media screen and (max-width: 60em) {
 
     header {
@@ -111,4 +114,17 @@ p {
 li {
     list-style-position: inside;
     padding: 0 0 0 0.5em;
+}
+
+#menubutton {
+    position: absolute;
+    padding: 5px 5px;
+}
+
+#menubutton div {
+    background-color: #363;
+    width: 30px;
+    height: 6px;
+    margin: 3px 0px;
+    border-radius: 5px;
 }
