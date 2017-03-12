@@ -10,21 +10,22 @@
 
     <body>
 
-        <header>
-            <div id="menubutton">
-                <div></div>
-                <div></div>
-                <div></div>
-            </div>
-            <p id="logo">[ L O G O ]</p>
+        <header id="logo">
+            <p>[ L O G O ]</p>
         </header>
-        
-        <nav>
-            <ul class="sidemenu">
+
+        <input type="checkbox" id="menutoggle-state" value="" />
+        <nav id="sidemenu">
+            <ul>
                 <li class="unselected"><a href="./index.html">Home</a></li>
                 <li class="selected"><a href="./about_us.html">About Us</a></li>
                 <li class="unselected"><a href="./walk.html">The Walk</a></li>
             </ul>
+            <label for="menutoggle-state" id="menutoggle">
+                <div></div>
+                <div></div>
+                <div></div>
+            </label>
         </nav>
 
         <main>
