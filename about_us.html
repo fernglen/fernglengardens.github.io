@@ -9,31 +9,26 @@
     </head>
 
     <body>
-
-        <header id="logo">
-            <p>[ L O G O ]</p>
-        </header>
-
-        <input type="checkbox" id="menutoggle-state" value="" />
-
-        <nav id="sidemenu">
-
-            <ul>
-                <li class="unselected"><a href="./index.html">Home</a></li>
-                <li class="selected"><a href="./about_us.html">About Us</a></li>
-                <li class="unselected"><a href="./walk.html">The Walk</a></li>
-            </ul>
-
-            <label for="menutoggle-state" id="menutoggle">
-                <div></div>
-                <div></div>
-                <div></div>
-            </label>
-            
-        </nav>
-
-        <main>
-            <article>
+        <div id="aside">
+            <div id="header">
+                <p>[ L O G O ]</p>
+            </div>
+            <input type="checkbox" id="menutoggle-state" value="" />
+            <div id="nav">
+                <label for="menutoggle-state" id="menutoggle">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </label>
+                <ul id="sidemenu">
+                    <li class="unselected"><a href="./index.html">Home</a></li>
+                    <li class="selected"><a href="./about_us.html">About Us</a></li>
+                    <li class="unselected"><a href="./walk.html">The Walk</a></li>
+                </ul>
+            </div>
+        </div>
+        <div id="main">
+            <div id="article">
                 <h1>About Us</h1>
                 
                 
@@ -58,8 +53,8 @@
 
 <p>Another way is by becoming a member of the Friends of Fernglen. More about the FRIENDS OF FERNGLEN</p>
 
-            </article>
-        </main>
+            </div>
+        </div>
     </body>
 
 </html>

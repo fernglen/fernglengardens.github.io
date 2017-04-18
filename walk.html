@@ -9,31 +9,26 @@
     </head>
 
     <body>
-
-        <header id="logo">
-            <p>[ L O G O ]</p>
-        </header>
-
-        <input type="checkbox" id="menutoggle-state" value="" />
-
-        <nav id="sidemenu">
-
-            <ul>
-                <li class="unselected"><a href="./index.html">Home</a></li>
-                <li class="unselected"><a href="./about_us.html">About Us</a></li>
-                <li class="selected"><a href="./walk.html">The Walk</a></li>
-            </ul>
-
-            <label for="menutoggle-state" id="menutoggle">
-                <div></div>
-                <div></div>
-                <div></div>
-            </label>
-            
-        </nav>
-
-        <main>
-            <article>
+        <div id="aside">
+            <div id="header">
+                <p>[ L O G O ]</p>
+            </div>
+            <input type="checkbox" id="menutoggle-state" value="" />
+            <div id="nav">
+                <label for="menutoggle-state" id="menutoggle">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </label>
+                <ul id="sidemenu">
+                    <li class="unselected"><a href="./index.html">Home</a></li>
+                    <li class="unselected"><a href="./about_us.html">About Us</a></li>
+                    <li class="selected"><a href="./walk.html">The Walk</a></li>
+                </ul>
+            </div>
+        </div>
+        <div id="main">
+            <div id="article">
                 <h1>Fernglen Garden and Bush Walk</h1>
                 
                 
@@ -82,8 +77,8 @@ More about the offshore collection.</p>
 
 <p>Allow approximately one hour to walk the complete track and longer if you want to view the points of interest in more detail.</p>
 
-            </article>
-        </main>
+            </div>
+        </div>
     </body>
 
 </html>
